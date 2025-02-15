@@ -36,5 +36,6 @@ btn.addEventListener("click", () => {
     btn.textContent = "Olovni o'chirish uchun bosing!";
   } else {
     container.setAttribute("class", "container");
+    btn.textContent = "Olov uchun meni bosing!";
   }
 });
